@@ -1,4 +1,4 @@
-### <app-loader> custom web component 
+### app-loader custom web component 
 
 A loading overlay that waits for key resources to load before displaying your app.
 
