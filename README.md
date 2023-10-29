@@ -18,3 +18,13 @@ The `message` attribute is available to display any text centered under the load
 
 The `background` and `z` attributes are CSS properties that can be used to style the app-loader. Background can have any value as the CSS property with the same name, including linear or radial gradients. Z is only necessary if you need to adjust the z-index of this custom element.
 
+For example:
+```html
+    <app-loader background="linear-gradient(90deg, #17c60a, #0078d8)" z="10" 
+      requests="style.css, app.js, img/hero.jpg, fonts/Ubuntu-Regular.ttf">
+    </app-loader>
+```
+
+
+
+
