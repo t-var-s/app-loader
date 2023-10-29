@@ -23,9 +23,9 @@ The `background` and `z` attributes are CSS properties that can be used to style
 
 For example:
 ```html
-    <app-loader background="linear-gradient(90deg, #17c60a, #0078d8)" z="10" 
-      requests="style.css, app.js, img/hero.jpg, fonts/Ubuntu-Regular.ttf">
-    </app-loader>
+<app-loader background="linear-gradient(90deg, #17c60a, #0078d8)" z="10" 
+    requests="style.css, app.js, img/hero.jpg, fonts/Ubuntu-Regular.ttf">
+</app-loader>
 ```
 
 
