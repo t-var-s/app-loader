@@ -1,5 +1,8 @@
 ### app-loader custom web component 
 
+
+![app-loader](https://github.com/t-var-s/app-loader/assets/6660327/45e32d2f-8f09-417e-a79f-4566ac78aff0)
+
 A loading overlay that waits for key resources to load before displaying your app.
 
 Include
