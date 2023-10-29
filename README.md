@@ -2,6 +2,12 @@
 
 A loading overlay that waits for key resources to load before displaying your app.
 
+Include
+```html
+<script src="https://cdn.jsdelivr.net/gh/t-var-s/app-loader/app-loader.js"></script>
+```
+in the `<head>` of your page to use the `<app-loader>` tag.
+
 In the demo.html file, you can see most of the available attributes that can be used.
 
 The `requests` attribute is a comma separated list URLs to request. The app-loader will disappear when all requests succeed or just one of them fails. These should be files critical to how your app appears initially, namely CSS, fonts or images.
