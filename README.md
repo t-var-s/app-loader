@@ -13,7 +13,7 @@ in the `<head>` of your page to use the `<app-loader>` tag.
 
 In the demo.html file, you can see most of the available attributes that can be used.
 
-The `requests` attribute is a comma separated list URLs to request. The app-loader will disappear when all requests succeed or just one of them fails. These should be files critical to how your app appears initially, namely CSS, fonts or images.
+The `requests` attribute is a comma separated list URLs to request. The app-loader will disappear when all requests succeed or any of them fails. These should be files critical to how your app appears initially, namely CSS, fonts or images.
 
 The `wait` attribute can be used to define a minimum amount of miliseconds before the app-loader disappears.
 
