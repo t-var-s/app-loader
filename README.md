@@ -28,6 +28,4 @@ For example:
 </app-loader>
 ```
 
-
-
-
+*app-loader is made available through an AGPL v3 license.*
